@@ -1,0 +1,41 @@
+This project contains all the program files for my SNA course project. The course home page can be found at https://class.coursera.org/sna-2012-001/class/index.
+
+The purpose of the project is to extract link relationships from the blogs and analyze the community aspects of the statistics blog community. In addition, NLP techniques will be used to analyze similar blogs based on content. The question of is there any relationship between community and content will be explored.
+
+Current status:
+
+* Able to take a list of urls, extract the feed, extract links based on those feeds, and save content along with links to a json file. Also extracts links from the first page, approximately corresponding to a blog roll. Both links (stripped to domain) and links matched to blog list are saved.
+* However, the blogroll effort wasn't so great. So I'm building the links from the blogroll manually. It's a very slow process. See caveats below:
+* Able to construct a basic dot file of a directed graph based on those links.
+
+Files:
+
+manual_blogroll.txt - Text file with a list of blog urls. Format is a url, followed by a semi-colon, followed by a comma-separated list of blog urls in the blog's blogroll.
+get_feed.py - takes a list of urls, downloads the feeds based on url, and saves the content and links to a json file
+link_extractor.py - extracts links from HTML. One function simply extracts the domain, and another will match it to a list passed to it (such as a list of blogs) so that outlinks will be constrained to the original community.
+test_link_extractor.py - unit tests for link_extractor.py. Could be much more robust.
+get_counts.py - creates term document matrix, stores in out\tdf.txt
+feedlist.txt - list of blog urls, one to a line
+out/ - directory holding json files from get_feed and gml file from build_graph.py.
+build_graph.py - parses all json files in out/ and creates a digraph based on outlinks in the blogs (as saved by get_feed). Creates a gml file in the out/ directory
+README - this document
+TODO - things that are remaining to do in the project
+
+Caveats
+
+* Links to Andrew Gelman's blog are very diverse. He has several addresses. I standardized them to http://www.andrewgelman.com
+* Same with Simply Stats, standardized to http://simplystatistics.org
+* There are many links from inside to outside the statistics web, for example to econometrics, sociology, mathematics, and CS. I had to stop following them somewhere, and sometimes the break may seem arbitrary. I had to balance time and return on value to the project.
+
+How to run the analysis:
+
+1. Create manual_blogroll.txt in the format listed above.
+2. python build_graph.py manual (this takes a while if you want the titles of the blog as labels)
+3. python build_graph.py feedlist to create feedlist.txt
+4. python get_feed.py to create json files in out\ directory (this takes a while)
+5. python get_counts.py to create the term document matrix file (this takes a while)
+
+For the SNA part of the analysis
+
+1. After build_graph.py manual you can load blogs_manual.dot into Gephi or other tool that understands .dot files
+2. After build_graph.py json you can load blogs.dot into Gephi.

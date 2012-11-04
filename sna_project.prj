@@ -1,0 +1,37 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Include Sub Directories=1
+Project Tagfile=
+Project Wordfile=
+Project TpFile=
+Filter=
+Create Tagfile=0
+[Group]
+0=Data
+1=Internet
+2=NLP
+3=SNA
+4=test
+5=Documentation
+6=Utility
+[Files - Data]
+0=feedlist.txt
+[Files - NLP]
+0=get_counts.py
+[Files - Internet]
+0=get_feed.py
+1=link_extractor.py
+[Files - test]
+0=test_get_counts.py
+1=test_link_extractor.py
+2=test_filename_munger.py
+[Files - Documentation]
+0=README
+1=TODO
+[Files - SNA]
+0=build_graph.py
+[Files - Utility]
+0=filename_munger.py
