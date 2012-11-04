@@ -1,10 +1,11 @@
  * Basic stuff
    x add titles of blogs to the labels (tried adding attr to networkx graph, gml didn't like it) - completed
-   * try scraping the front page of each of the blogs for blogroll links - need to add replacements to title strings so they can be valid files
+   x try scraping the front page of each of the blogs for blogroll links - need to add replacements to title strings so they can be valid files
+     (I tried this, and didn't get anything very interesting)
    x complete manual blogroll process (start with allendowney.blogspot.com)
  * Implement the NLP stuff
-   * create term document matrix
-   * convert to tf-idf
+   x create term document matrix
+   x convert to tf-idf
    * cluster blogs based on similarity (review Programming Collective Intelligence)
    * fancier stuff (nice to have): named entity extraction
  * Implement the SNA stuff
