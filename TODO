@@ -10,7 +10,11 @@
  * Implement the SNA stuff
    x build graph
    x display it
+   * pickle the graph for further exploration in networkx
    * analyze it
  * Compare the two
    * find a way to overlap the two
    * maybe add topic clusters as attributes? that way Gephi can color them
+   * try one-way ANOVA of tf-idf similarity on community number
+   * try k-means on similarity, and compute how often the clustering and community detection agree that pairs are in same group
+   
