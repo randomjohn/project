@@ -50,13 +50,24 @@ def build_graphs_from_json(blog_file):
 def build_graph_from_manual( blog_file, add_labels=False, filename="out/blogs_manual.dot" ):
     blog_list = [line for line in file(blog_file)]
     blog_gr=nx.DiGraph()
-    print filename
+    
+    # create a dictionary of blog url to title out of the json files
+    url_titles = {}
+    json_files = [fil for fil in os.listdir("out/") if fil.endswith(".json")]
+    for json_file in json_files:
+        blog_props=json.load(file("out/"+json_file))
+        url_titles[blog_props[0]['blogurl'].strip().replace('"','')]=blog_props[0]['title']
     
     for blog in blog_list:
         blog=blog.strip()
         # split on the semicolon, on the left is the node and the right are outlinks
         bl_list = blog.split(';',2)
-        blog_gr.add_node(bl_list[0])
+        try:
+            # add node with a label that is the title
+            blog_gr.add_node(bl_list[0],label=url_titles[bl_list[0]])
+        except KeyError:
+            # if we didn't find it in json files, just default to url as label
+            blog_gr.add_node(bl_list[0],label=bl_list[0])    
         if len(bl_list)>1 and bl_list[1]!="":
             if bl_list[0].find("visualcomplexity.com")>-1:
                 # some debugging
@@ -69,22 +80,20 @@ def build_graph_from_manual( blog_file, add_labels=False, filename="out/blogs_ma
                     outlink=outlink[-1]
                 elif (len(outlink)==1 or outlink==''):
                     # skip some slop
-                    continue        
+                    continue
+                # explicitly add node if not already in
+                if outlink not in blog_gr.nodes():
+                    try:
+                        # add node with a label that is the title
+                        blog_gr.add_node(outlink,label=url_titles[outlink])
+                    except KeyError:
+                        # if we didn't find it in json files, just default to url as label
+                        blog_gr.add_node(outlink,label=outlink)    
+                           
                 blog_gr.add_edge(bl_list[0],outlink)
-    # add labels to nodes, if we need to
-    if (add_labels):
-        for n in blog_gr:
-            blog_gr[n]['title'] = ''
-            try:
-                webpage_title = le.extract_title_from_url(n)
-                print >> sys.stderr, 'Note: web page at ' + n + ' has title ' + webpage_title
-                blog_gr[n]['title'] = webpage_title.strip().replace('\n','').replace('&nbsp;','')
-            except:
-                print >> sys.stderr, 'Note: Could not parse ' + n
-                blog_gr[n]['title'] = n
     if filename.endswith(".dot"):
         #write out by hand
-        node_dot = ['"%s" [label="%s"]' % (n,blog_gr[n]['title']) for n in blog_gr]
+        node_dot = ['"%s" [label="%s"]' % (n[0],n[1]['label'].replace('"','')) for n in blog_gr.nodes(data=True)]
         edge_dot = ['"%s" -> "%s"' % (n1, n2) for n1,n2 in blog_gr.edges() if n2!="title"]
         f = open(filename,'w')
         f.write('strict digraph{\n%s\n%s\n}' % (";\n".join(node_dot).encode('ascii','ignore'),";\n".join(edge_dot).encode('ascii','ignore')))
@@ -92,7 +101,11 @@ def build_graph_from_manual( blog_file, add_labels=False, filename="out/blogs_ma
     elif filename.endswith(".pickle"):
         f = open(filename,'wb')
         cPickle.dump(blog_gr,f)
-        f.close()  
+        f.close()
+    elif filename.endswith(".gml"):
+        f=open(filename,'w')
+        nx.write_gml(blog_gr,f)
+        f.close()    
     return
     
 def make_feedlist_from_file(blog_file,out_file="feedlist_manual.txt"):

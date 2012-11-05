@@ -27,6 +27,7 @@ Caveats
 
 * Links to Andrew Gelman's blog are very diverse. He has several addresses. I standardized them to http://www.andrewgelman.com
 * Same with Simply Stats, standardized to http://simplystatistics.org
+* And Flowing Data, all standardized to http://www.flowingdata.com
 * There are many links from inside to outside the statistics web, for example to econometrics, sociology, mathematics, and CS. I had to stop following them somewhere, and sometimes the break may seem arbitrary. I had to balance time and return on value to the project.
 
 How to run the analysis:
