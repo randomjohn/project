@@ -63,3 +63,7 @@ References
 - NetworkX, http://networkx.lanl.gov (Python package)
 - NLTK, http://www.nltk.org (Python package)
 - ... and of course, Social Network Analysis, taught by Lada Adamic Fall 2012 on Coursera.
+
+Coda
+
+I realize a lot of this code is done inefficiently, but it works.

@@ -21,6 +21,7 @@ Create Tagfile=0
 0=feedlist.txt
 [Files - NLP]
 0=get_counts.py
+1=clusters.py
 [Files - Internet]
 0=get_feed.py
 1=link_extractor.py
