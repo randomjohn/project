@@ -18,6 +18,7 @@ get_counts.py - creates term document matrix, stores in out\tdf.txt
 feedlist.txt - list of blog urls, one to a line
 out/ - directory holding json files from get_feed and gml file from build_graph.py.
 build_graph.py - parses all json files in out/ and creates a digraph based on outlinks in the blogs (as saved by get_feed). Creates a dot file in the out/ directory
+   NOTE: there is some error in build_graph.py with the addition of titles as labels.
 similarity.py - reads the term document matrix from get_counts.py and creates a similarity matrix, writes it out to out\similarity.txt
 README - this document
 TODO - things that are remaining to do in the project
@@ -32,6 +33,7 @@ How to run the analysis:
 
 1. Create manual_blogroll.txt in the format listed above.
 2. python build_graph.py manual (this takes a while if you want the titles of the blog as labels)
+2.1 python build_graph.py manual manual_blogroll.txt out/<something>.pickle to create a pickled NetworkX graph that can be loaded later
 3. python build_graph.py feedlist to create feedlist.txt
 4. python get_feed.py to create json files in out\ directory (this takes a while)
 5. python get_counts.py to create the term document matrix file (this takes a while)
@@ -40,6 +42,7 @@ For the SNA part of the analysis
 
 1. After build_graph.py manual you can load blogs_manual.dot into Gephi or other tool that understands .dot files
 2. After build_graph.py json you can load blogs.dot into Gephi.
+3. You can use the pickle file to load graph into python for further analysis, say with networkx.
 
 For the NLP part of the analysis:
 1. Run similarity.py after running get_counts.py (this takes a short while)
