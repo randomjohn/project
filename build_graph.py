@@ -5,6 +5,7 @@ import sys
 import os
 import json
 import link_extractor as le
+import cPickle
 
 def build_graphs_from_json(blog_file):
     # get list of blogs based on feedlist in blog_file
@@ -46,9 +47,10 @@ def build_graphs_from_json(blog_file):
     nx.write_gml(blog_gr,'out/blogs.gml')
     return
 
-def build_graph_from_manual( blog_file, add_labels=False ):
+def build_graph_from_manual( blog_file, add_labels=False, filename="out/blogs_manual.dot" ):
     blog_list = [line for line in file(blog_file)]
     blog_gr=nx.DiGraph()
+    print filename
     
     for blog in blog_list:
         blog=blog.strip()
@@ -80,13 +82,17 @@ def build_graph_from_manual( blog_file, add_labels=False ):
             except:
                 print >> sys.stderr, 'Note: Could not parse ' + n
                 blog_gr[n]['title'] = n
-    #write out by hand
-    node_dot = ['"%s" [label="%s"]' % (n,blog_gr[n]['title']) for n in blog_gr]
-    edge_dot = ['"%s" -> "%s"' % (n1, n2) for n1,n2 in blog_gr.edges() if n2!="title"]
-    OUT = "out/blogs_manual.dot"
-    f = open(OUT,'w')
-    f.write('strict digraph{\n%s\n%s\n}' % (";\n".join(node_dot).encode('ascii','ignore'),";\n".join(edge_dot).encode('ascii','ignore')))
-    f.close()
+    if filename.endswith(".dot"):
+        #write out by hand
+        node_dot = ['"%s" [label="%s"]' % (n,blog_gr[n]['title']) for n in blog_gr]
+        edge_dot = ['"%s" -> "%s"' % (n1, n2) for n1,n2 in blog_gr.edges() if n2!="title"]
+        f = open(filename,'w')
+        f.write('strict digraph{\n%s\n%s\n}' % (";\n".join(node_dot).encode('ascii','ignore'),";\n".join(edge_dot).encode('ascii','ignore')))
+        f.close()
+    elif filename.endswith(".pickle"):
+        f = open(filename,'wb')
+        cPickle.dump(blog_gr,f)
+        f.close()  
     return
     
 def make_feedlist_from_file(blog_file,out_file="feedlist_manual.txt"):
@@ -106,7 +112,7 @@ def make_feedlist_from_file(blog_file,out_file="feedlist_manual.txt"):
     return
                 
 def main(  ):
-    if len(sys.argv)==1 or len(sys.argv)>3:
+    if len(sys.argv)==1 or len(sys.argv)>4:
         print "Usage: python build_graph.py (json|manual|feedlist) <file>"
         return
     elif len(sys.argv)==2:
@@ -116,12 +122,15 @@ def main(  ):
             blog_file="manual_blogroll.txt"    
     elif len(sys.argv)==3:
         blog_file=sys.argv[2]
+    elif len(sys.argv)==4:
+        blog_file=sys.argv[2]
+        out_file=sys.argv[3]            
     if sys.argv[1]=="json":
         build_graphs_from_json(blog_file)
     elif sys.argv[1]=="feedlist":
         make_feedlist_from_file(blog_file)
     else:
-        build_graph_from_manual(blog_file,add_labels=True)    
+        build_graph_from_manual(blog_file,add_labels=False,filename=out_file)    
     return
 if __name__=='__main__':
     main()

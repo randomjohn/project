@@ -6,12 +6,13 @@
  * Implement the NLP stuff
    x create term document matrix
    x convert to tf-idf
+   * maybe make the similarity more efficient
    * cluster blogs based on similarity (review Programming Collective Intelligence)
    * fancier stuff (nice to have): named entity extraction
  * Implement the SNA stuff
    x build graph
    x display it
-   * pickle the graph for further exploration in networkx
+   x pickle the graph for further exploration in networkx
    * analyze it
  * Compare the two
    * find a way to overlap the two
