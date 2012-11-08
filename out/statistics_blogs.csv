@@ -1,0 +1,529 @@
+Id,Label,In-Degree,Out-Degree,Degree,Modularity Class,PageRank,Component ID,Eccentricity,Closeness Centrality,Betweenness Centrality
+http://cssanalytics.wordpress.com,CSSA,1,0,1,20,0.0018284174286464807,0,0.0,0.0,0.0
+http://blogs.sas.com/content/sascom,SAS Voices,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://statisticalgraphics.blog.com,http://statisticalgraphics.blog.com,1,0,1,6,0.0017198281104763456,0,0.0,0.0,0.0
+http://rdatamining.wordpress.com,blog.RDataMining.com,0,0,0,0,0.0016015298538583234,1,0.0,0.0,0.0
+http://chartporn.org,Chart Porn,1,3,4,6,0.0017198281104763456,0,3.0,2.0760869565217392,77.0
+http://allthingsr.blogspot.com,All Things R,0,0,0,1,0.0016015298538583234,2,0.0,0.0,0.0
+http://ejfox.com,http://ejfox.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://swedeneurostat.blogspot.com,Sweden Statistics,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://psychologicalstatistics.blogspot.com,Psychological Statistics,3,5,8,9,0.004697333742365041,0,6.0,3.9291666666666667,476.83333333333337
+http://cscs.umich.edu/~crshalizi/weblog,http://cscs.umich.edu/~crshalizi/weblog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://blog.sigfpe.com,A Neighborhood of Infinity,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://threesixty360.wordpress.com,360,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://yaroslavvb.blogspot.com,"Machine Learning, etc",2,0,2,16,0.0016861488447571249,0,0.0,0.0,0.0
+http://www.datavisualization.fr,Looking 4 data visualization,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.ask-cato.com,Ask Cato,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://www.columnfivemedia.com,Column Five Media,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://complexdiagrams.com,Complex Diagrams,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://bigcomputing.blogspot.com,Big Computing,1,0,1,7,0.0020005977174444196,0,0.0,0.0,0.0
+http://www.edgebio.com/blog,EdgeBio blogs,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://blog.smola.org,http://blog.smola.org,1,0,1,13,0.0019511032648603954,0,0.0,0.0,0.0
+http://manyeyes.alphaworks.ibm.com/manyeyes,http://manyeyes.alphaworks.ibm.com/manyeyes,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://pbeltrao.blogspot.com,Public Rambling,2,0,2,18,0.0017372076308805003,0,0.0,0.0,0.0
+http://junkcharts.typepad.com/junk_charts,http://junkcharts.typepad.com/junk_charts,2,25,27,6,0.0020155737520214006,0,6.0,3.2738095238095237,419.5
+http://jess3.com,http://jess3.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://cra.org/govaffairs/blog,COMPUTING RESEARCH POLICY BLOG,1,0,1,15,0.0019522601221968231,0,0.0,0.0,0.0
+http://www.marketingcharts.com,"Marketing Charts, Stats, Facts & Trends",1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://www.graphoftheweek.org,Graph of the Week,0,4,4,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://peltiertech.com/WordPress,Peltier Tech Blog,2,0,2,6,0.001836523407161793,0,0.0,0.0,0.0
+http://www.joeparry.com/blog,Visual Design & Analysis,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://www.sas-programming.com,SAS Programming for Data Mining,0,2,2,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://blogs.williams.edu/Morgan,Frank Morgan,2,0,2,15,0.0020485795962517346,0,0.0,0.0,0.0
+http://hdr.undp.org,http://hdr.undp.org,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://taoshistat.wordpress.com,Learning From Data,1,5,6,6,0.0016258392368713403,0,6.0,3.8666666666666667,3.0
+http://biostatmatt.com,BioStatMatt,0,0,0,2,0.0016015298538583234,3,0.0,0.0,0.0
+http://www.datadrivenconsulting.com,http://www.datadrivenconsulting.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.comscoredatamine.com,http://www.comscoredatamine.com,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+https://gephi.org,Gephi,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://spittoon.23andme.com,The 23andMe Blog,1,0,1,18,0.0017397287645656314,0,0.0,0.0,0.0
+http://weblog.fortnow.com,http://weblog.fortnow.com,2,0,2,15,0.0030179055459224305,0,0.0,0.0,0.0
+http://liesdamnedliesstatistics.com,"Lies, damned lies and statistics",1,13,14,26,0.0017012303427699094,0,7.0,4.317796610169491,334.0
+http://ml.typepad.com,Machine Learning Thoughts,1,0,1,15,0.0019522601221968231,0,0.0,0.0,0.0
+http://www.statista.com,http://www.statista.com,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://regularize.wordpress.com,regularize,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.infogra.ph,Infogra.ph,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://statosphere.misentropy.com,http://statosphere.misentropy.com,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://www.briancragin.com,Cragin Design,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.cscs.umich.edu/~crshalizi/weblog,http://www.cscs.umich.edu/~crshalizi/weblog,5,0,5,9,0.003176027299817557,0,0.0,0.0,0.0
+http://ripetungi.com,http://ripetungi.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://seriousstats.wordpress.com,Serious Stats,2,3,5,9,0.003885552656947392,0,7.0,4.916666666666667,0.5
+http://genesearch.wordpress.com,http://genesearch.wordpress.com,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.usefulcharts.com,http://www.usefulcharts.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://shom83.blogspot.com,Doyung,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://terahertztechnology.blogspot.com,Terahertz Technology,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://pixel-shaker.fr,Pixel shaker,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://digitheadslabnotebook.blogspot.com,Digithead's Lab Notebook,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.aliquote.org,http://www.aliquote.org,1,0,1,22,0.0017078367082485604,0,0.0,0.0,0.0
+http://www.infographiclove.com,Infographic Love,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://dataremixed.com,DataRemixed,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://jermdemo.blogspot.com,Jermdemo Raised to the Law,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://infographicjournal.com,Infographic Journal,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://dustingmixon.wordpress.com,"Short, Fat Matrices",1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://sharpstatistics.co.uk,Sharp Statistics,0,0,0,3,0.0016015298538583234,4,0.0,0.0,0.0
+http://www.folioart.co.uk,http://www.folioart.co.uk,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://mfadiagrams.blogspot.com,MFA Diagrams,1,0,1,6,0.0017198281104763456,0,0.0,0.0,0.0
+http://www.infojocks.com,http://www.infojocks.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://underpoint05.wordpress.com,But it's under .05!,1,0,1,26,0.0017012303427699094,0,0.0,0.0,0.0
+http://www.arsmathematica.net,Ars Mathematica,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://designnotes.info,DesignNotes by Michael Surtees | DesignNotes by Michael Surtees,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://davidmlane.com/hyperstat/index.html,http://davidmlane.com/hyperstat/index.html,1,0,1,14,0.0017527882370504282,0,0.0,0.0,0.0
+http://www.niceone.org,http://www.niceone.org,1,0,1,6,0.0017198281104763456,0,0.0,0.0,0.0
+http://ergodicity.net,An Ergodic Walk,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://espacevide.net/articles,Articles,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://blogstats.wordpress.com,Blog about Stats,2,0,2,7,0.0017919853726851723,0,0.0,0.0,0.0
+http://www.datapointed.net,Data Pointed,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.corrada.com/blog,De Rerum Natura,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.perceptualedge.com/blog,Visual Business Intelligence,3,0,3,6,0.0019382632667145857,0,0.0,0.0,0.0
+http://www.sankey-diagrams.com,Sankey Diagrams,1,12,13,6,0.0016700608518722898,0,3.0,2.6363636363636362,22.75
+http://ivory.idyll.org/blog,http://ivory.idyll.org/blog,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://mrepidemiology.com,Mr Epidemiology,1,0,1,9,0.001928331609674649,0,0.0,0.0,0.0
+http://www.themonkeycage.org,The Monkey Cage,2,0,2,9,0.0020736975196900933,0,0.0,0.0,0.0
+http://karpathy.ca/myblog,http://karpathy.ca/myblog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://quantivity.wordpress.com,Quantivity,1,0,1,20,0.0018284174286464807,0,0.0,0.0,0.0
+http://www.statsmakemecry.com,http://www.statsmakemecry.com,1,0,1,14,0.001750519786145347,0,0.0,0.0,0.0
+http://bps-msc.blogspot.com,"BPS Mathematics, Statistics & Computing Section",1,4,5,9,0.0023994148023198745,0,6.0,3.9291666666666667,4.0
+http://www.juiceanalytics.com/writing,Juice Analytics,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://mysliceofpizza.blogspot.com,my slice of pizza,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://malkarouri.wordpress.com,On Another Dimension,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.vizworld.com,VizWorld.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://oelemento.wordpress.com,http://oelemento.wordpress.com,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://bcbio.wordpress.com,http://bcbio.wordpress.com,2,0,2,18,0.0019848590399845177,0,0.0,0.0,0.0
+http://www.terminally-incoherent.com/blog,http://www.terminally-incoherent.com/blog,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://www.giseliramos.com.br/blog,http://www.giseliramos.com.br/blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://nuit-blanche.blogspot.com,http://nuit-blanche.blogspot.com,3,0,3,15,0.002928191303532357,0,0.0,0.0,0.0
+http://crossedstreams.com/wordpress,http://crossedstreams.com/wordpress,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://kbroman.wordpress.com,http://kbroman.wordpress.com,0,2,2,9,0.0016015298538583234,0,6.0,3.9662447257383966,0.0
+http://www.overcomingbias.com,http://www.overcomingbias.com,1,0,1,9,0.0021502991772972685,0,0.0,0.0,0.0
+http://learnandteachstatistics.wordpress.com,http://learnandteachstatistics.wordpress.com,0,3,3,14,0.0016015298538583234,0,7.0,4.4789915966386555,0.0
+http://www.neoformix.com,http://www.neoformix.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://web.ece.rice.edu/richb,Richard Baraniuk,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://joelcadwell.blogspot.com,Engaging Market Research,0,2,2,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://blogs.sas.com/blognormal,The Corner Office,1,0,1,26,0.001741015366587781,0,0.0,0.0,0.0
+http://terrytao.wordpress.com,What's new,9,0,9,15,0.005959001737756972,0,0.0,0.0,0.0
+http://mirror2image.wordpress.com,Mirror Image,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://onertipaday.blogspot.com,One R Tip A Day,2,13,15,7,0.0019387244378011753,0,2.0,1.3157894736842106,583.0
+http://dailytekk.com,DailyTekk,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://godplaysdice.blogspot.com,http://godplaysdice.blogspot.com,1,0,1,15,0.001946883886166366,0,0.0,0.0,0.0
+http://romainfrancois.blog.free.fr,"Romain Francois, Professional R Enthusiast",1,2,3,7,0.00172829542204014,0,1.0,1.0,46.0
+http://mybiasedcoin.blogspot.com,My Biased Coin,3,2,5,15,0.002806707829849676,0,8.0,5.63135593220339,17.916666666666668
+http://brenocon.com/blog,AI and Social Science - Brendan O'Connor,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://blog.infochimps.com,http://blog.infochimps.com,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://infostructuralist.wordpress.com,The Information Structuralist,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://webmaths.wordpress.com,Webmaths,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://wmbriggs.com/blog,http://wmbriggs.com/blog,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://mrvacuumtube.blogspot.com,Mr. Vacuum Tube,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.andypope.info/index.htm,http://www.andypope.info/index.htm,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://thousandfold.net/cz,ChapterZero,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.InfoMonkeys.com,http://www.InfoMonkeys.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://allendowney.blogspot.com,Probably Overthinking It,2,0,2,9,0.0018932831097959735,0,0.0,0.0,0.0
+http://www.data-mining-blog.com,Data Mining - Blog.com,0,1,1,23,0.0016015298538583234,5,1.0,1.0,0.0
+http://gowers.wordpress.com,Gowers's Weblog,3,0,3,15,0.0027274581232622826,0,0.0,0.0,0.0
+http://www.staubman.com/index.php,http://www.staubman.com/index.php,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://nuit-blanche.blogspot.it,Nuit Blanche,1,95,96,13,0.002143840400018622,0,6.0,2.26271186440678,4879.750000000001
+http://statisticsforum.wordpress.com,http://statisticsforum.wordpress.com,5,0,5,9,0.0024178394400294146,0,0.0,0.0,0.0
+http://rhodestales.com,http://rhodestales.com,1,0,1,9,0.0019418612160405592,0,0.0,0.0,0.0
+http://timsalimans.com,Tim Salimans on Data Analysis,1,0,1,14,0.001750519786145347,0,0.0,0.0,0.0
+http://geekmusfir.wordpress.com,Geekmusfir,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://guiuestc.blogspot.com,http://guiuestc.blogspot.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://educationandstatistics.blogspot.com,Education and Statistics,1,0,1,9,0.001928331609674649,0,0.0,0.0,0.0
+http://infographicsite.com,http://infographicsite.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://scienceandreason.blogspot.com,Science and Reason,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://www.r-statistics.com,R-statistics blog,1,0,1,22,0.0017078367082485604,0,0.0,0.0,0.0
+http://davidakenny.net,http://davidakenny.net,1,0,1,14,0.0017527882370504282,0,0.0,0.0,0.0
+http://radar.oreilly.com,"O'Reilly Radar - Insight, analysis, and research about emerging technologies",1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://www.infographicsshowcase.com,Infographics Showcase,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://errorstatistics.com,http://errorstatistics.com,3,0,3,9,0.0025888227032894893,0,0.0,0.0,0.0
+http://www.theworldasflatland.net,http://www.theworldasflatland.net,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://ongenes.blogspot.com,Information on Genes,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://www.statsmakemecry.com/smmctheblog,Deviant Square Stats Tutorials,0,9,9,14,0.0016015298538583234,0,7.0,4.666666666666667,0.0
+http://davegiles.blogspot.com,http://davegiles.blogspot.com,1,0,1,7,0.00172829542204014,0,0.0,0.0,0.0
+http://www.geneticsandhealth.com,http://www.geneticsandhealth.com,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.visualcomplexity.com/vc,http://www.visualcomplexity.com/vc,2,0,2,6,0.0017424675381885535,0,0.0,0.0,0.0
+http://rtutorialseries.blogspot.com,R Tutorial Series,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://fellinlovewithdata.com,Fell in Love with Data,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://orgtheory.wordpress.com,orgtheory.net,1,0,1,9,0.0021502991772972685,0,0.0,0.0,0.0
+http://freakonometrics.blog.free.fr,http://freakonometrics.blog.free.fr,4,0,4,9,0.0026327565132222403,0,0.0,0.0,0.0
+http://thelogcabin.wordpress.com,The Log Cabin,1,4,5,7,0.0018779276752729393,0,1.0,1.0,5.5
+http://errorstatistics.blogspot.com,Error Statistics Philosophy,1,0,1,9,0.0017397287645656314,0,0.0,0.0,0.0
+http://hashimotolaboratory.blogspot.com,Hashimoto Laboratory's Blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://omicsomics.blogspot.com,Omics! Omics!,4,29,33,18,0.0021473673337048427,0,2.0,1.121212121212121,108.5
+http://ngs-expert.com,NGS Expert Blog,1,0,1,18,0.0017397287645656314,0,0.0,0.0,0.0
+http://www.analyticbridge.com,http://www.analyticbridge.com,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://r-bloggers.com,http://r-bloggers.com,1,0,1,9,0.002022202774116174,0,0.0,0.0,0.0
+http://blog.computationalcomplexity.org,Computational Complexity,2,6,8,15,0.002297614154504866,0,7.0,4.673728813559322,25.666666666666675
+http://daily-scala.blogspot.com,Daily scala,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://mygenomix.wordpress.com,my GenomiX,1,0,1,18,0.0017397287645656314,0,0.0,0.0,0.0
+http://communicationnation.blogspot.com,Communication Nation,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://bergmanlab.smith.man.ac.uk/?page_id=45,Bergman Lab,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://www.mii.ucla.edu/causality,Causal Analysis in Theory and Practice,1,1,2,9,0.002143840400018622,0,7.0,3.792372881355932,0.0
+http://visualcomplexity.com,http://visualcomplexity.com,1,0,1,6,0.0017789772387853565,0,0.0,0.0,0.0
+http://blog.data-miners.com,Data Miners Blog,1,0,1,14,0.001750519786145347,0,0.0,0.0,0.0
+http://timeplots.com,http://timeplots.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://blog.goldenhelix.com,Our 2 SNPs...,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://lamages.blogspot.com,mages' blog,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://blogperso.univ-rennes1.fr/arthur.charpentier,Arthur Charpentier,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://messymatters.com,http://messymatters.com,2,0,2,9,0.0026168222193038103,0,0.0,0.0,0.0
+http://rna-seqblog.com,RNA-Seq Blog,1,0,1,18,0.0017397287645656314,0,0.0,0.0,0.0
+http://blogs.sas.com/content/iml,The DO Loop,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://tierneylab.blogs.nytimes.com,TierneyLab,1,1,2,6,0.001888767360703572,0,1.0,1.0,4.5
+http://www.infogr8.com,http://www.infogr8.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://matlabdatamining.blogspot.com,Data Mining in MATLAB,1,0,1,14,0.0019735226960698846,0,0.0,0.0,0.0
+http://bayesianbiologist.com,bayesianbiologist,1,9,10,9,0.0016258392368713403,0,6.0,3.870833333333333,2.833333333333333
+http://datamining.typepad.com,http://datamining.typepad.com,2,0,2,26,0.001852251829199455,0,0.0,0.0,0.0
+http://thewhyaxis.info,http://thewhyaxis.info,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://marciomarim.com/blog,Marcio Marim,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.walkingrandomly.com,Walking Randomly,2,24,26,16,0.0018475993030087783,0,2.0,1.04,879.8333333333333
+http://infographicworld.com,Infographic World,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://mathblogging.wordpress.com,Mathblogging.org -- the Blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://codeandculture.wordpress.com,Code and Culture,2,1,3,9,0.0022884980880045766,0,7.0,4.919491525423729,4.5
+http://secretsofconsulting.blogspot.com,Gerald Weinberg's Secrets of Writing and Consulting,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://probweb.berkeley.edu,http://probweb.berkeley.edu,1,0,1,15,0.0021108281960202898,0,0.0,0.0,0.0
+http://compgen.blogspot.com,Epistasis Blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.rdatamining.com,http://www.rdatamining.com,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://www.swissinfographics.com,SwissInfographics,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://flxlexblog.wordpress.com,In between lines of code,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://blog.openhelix.eu,The OpenHelix Blog,1,0,1,18,0.0017397287645656314,0,0.0,0.0,0.0
+http://blogs.mbs.edu/fishing-in-the-bay,Fishing in the Bay,2,0,2,22,0.0018075371971601464,0,0.0,0.0,0.0
+http://dahuasky.wordpress.com,http://dahuasky.wordpress.com,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://ubseblz.wordpress.com,Economics and Statistics Confuse Me,1,0,1,9,0.0017550841990886655,0,0.0,0.0,0.0
+http://blog.lupi-software.com,Lupi on Software,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://strangemaps.wordpress.com,http://strangemaps.wordpress.com,2,0,2,6,0.001990970134511955,0,0.0,0.0,0.0
+http://www.genomesunzipped.org,Genomes Unzipped,2,0,2,18,0.0019367364518329691,0,0.0,0.0,0.0
+http://bickson.blogspot.com,Large Scale Machine Learning and Other Animals,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://doingbayesiandataanalysis.blogspot.com,Doing Bayesian Data Analysis,0,0,0,4,0.0016015298538583234,6,0.0,0.0,0.0
+http://www.freakonomics.com/blog,Freakonomics,2,0,2,6,0.0033067155187166564,0,0.0,0.0,0.0
+http://www.maxgadney.com,maxgadney.com,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://quantombone.blogspot.com,tombone's blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://statswithcats.wordpress.com,Stats With Cats Blog,2,0,2,14,0.001850220275056933,0,0.0,0.0,0.0
+http://faculty.chass.ncsu.edu/garson/PA765/statnote.htm,http://faculty.chass.ncsu.edu/garson/PA765/statnote.htm,1,0,1,14,0.0017527882370504282,0,0.0,0.0,0.0
+http://highlyscalable.wordpress.com,Highly Scalable Blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://trinkersstatsstuff.wordpress.com,TRinker's Stats Blog,0,0,0,5,0.0016015298538583234,7,0.0,0.0,0.0
+http://xianblog.wordpress.com,Xi'an's Og,11,8,19,9,0.0039593261510024805,0,6.0,3.3559322033898304,1018.75
+http://addictedtor.free.fr/graphiques,http://addictedtor.free.fr/graphiques,1,0,1,17,0.0018737949436041122,8,0.0,0.0,0.0
+http://blogs.sas.com/content/sasdummy,http://blogs.sas.com/content/sasdummy,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://darrenjw.wordpress.com,Darren Wilkinson's research blog,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://pathogenomics.bham.ac.uk/blog,http://pathogenomics.bham.ac.uk/blog,2,0,2,18,0.0017372076308805003,0,0.0,0.0,0.0
+http://www.inside-r.org,http://www.inside-r.org,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://mat.gsia.cmu.edu/blog,http://mat.gsia.cmu.edu/blog,1,0,1,26,0.001741015366587781,0,0.0,0.0,0.0
+http://InfographicDesign.org,Infographic Design,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://periscopic.com,http://periscopic.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://hackaday.com,Hack a Day,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://blog.360.yahoo.com/blog-fjmXwIAjcKjZxsEcaDFYdQ--,http://blog.360.yahoo.com/blog-fjmXwIAjcKjZxsEcaDFYdQ--,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://googlepolitics.blogspot.com,Politics & Elections Blog,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://www.cnblogs.com/jerrylead,_JerryLead,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://blogs.reuters.com/felix-salmon,Felix Salmon,1,0,1,9,0.0017527882370504282,0,0.0,0.0,0.0
+http://infographiq.com,Infographiq,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://blog.gillerinvestments.com,http://blog.gillerinvestments.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://fungalgenomes.org/blog,The Hyphal Tip,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://blog.rguha.net,"So much to do, so little time",1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://unapologetic.wordpress.com,The Unapologetic Mathematician,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://blogs.forrester.com/market_insights,http://blogs.forrester.com/market_insights,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://media.aau.dk/CRISSP,http://media.aau.dk/CRISSP,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.politigenomics.com,PolITiGenomics,1,1,2,18,0.0016258392368713403,0,1.0,1.0,0.5
+http://datamining.typepad.com/data_mining,http://datamining.typepad.com/data_mining,2,0,2,6,0.0018016166664975644,0,0.0,0.0,0.0
+http://nuit-blanche.wordpress.com,http://nuit-blanche.wordpress.com,1,0,1,15,0.0017974868608424662,0,0.0,0.0,0.0
+http://statisfaction.wordpress.com,Statisfaction,1,5,6,9,0.0016258392368713403,0,7.0,4.310924369747899,1.3333333333333333
+http://seqonomics.blogspot.it,Seqonomics,1,0,1,18,0.0017397287645656314,0,0.0,0.0,0.0
+http://djalil.chafai.net/blog,Libres penses d'un mathmaticien ordinaire,2,8,10,15,0.0018442636170442272,0,7.0,4.508474576271187,172.16666666666669
+http://analytics4business.wordpress.com,analytics4business,1,0,1,14,0.001750519786145347,0,0.0,0.0,0.0
+http://www.visualcomplexity.com/vc/blog,VC blog,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://martynplummer.wordpress.com,JAGS News,1,0,1,9,0.0017716955349494413,0,0.0,0.0,0.0
+http://timelyportfolio.blogspot.com,Timely Portfolio,1,0,1,20,0.0018284174286464807,0,0.0,0.0,0.0
+http://newsaesthetics.tumblr.com,News Aesthetics,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://junkcharts.typepad.com,Junk Charts,6,0,6,26,0.002616777371874556,0,0.0,0.0,0.0
+http://xplane.com,http://xplane.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://blogs.wsj.com/numbersguy,The Numbers Guy,5,0,5,26,0.004108047248258566,0,0.0,0.0,0.0
+http://www.decisionsciencenews.com,Decision Science News,3,3,6,9,0.0024512583244706908,0,1.0,1.0,24.166666666666668
+http://www.thegeneticgenealogist.com,The Genetic Genealogist,2,0,2,18,0.0018124650333589513,0,0.0,0.0,0.0
+http://www.portfolioprobe.com/blog,Portfolio Probe,1,0,1,20,0.0018284174286464807,0,0.0,0.0,0.0
+http://eagereyes.org,eagereyes,6,13,19,6,0.0025459517170052623,0,1.0,1.0,473.4166666666667
+http://blog.stodden.net,Victoria Stodden,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.serialmapper.com,Serial Mapper,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://timmanns.blogspot.com,Blog by Tim Manns (data mining blog),1,0,1,14,0.0019735226960698846,0,0.0,0.0,0.0
+http://thegenesherpa.blogspot.com,http://thegenesherpa.blogspot.com,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://iitstatwizards.blogspot.com,http://iitstatwizards.blogspot.com,1,0,1,17,0.0018737949436041122,8,0.0,0.0,0.0
+http://stochastix.wordpress.com,Rod Carvalho,3,1,4,16,0.002086475866202576,0,1.0,1.0,43.0
+http://www.infographicsblog.com,Infographics Blog,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.programmingr.com/taxonomy/term/14/0,http://www.programmingr.com/taxonomy/term/14/0,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://freakonometrics.blog.free.fr/index.php,Freakonometrics,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://utvbloggen.se,IT-Entreprenr Jonas Lejon,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://www.mathlesstraveled.com,The Math Less Traveled,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://nowsourcing.com,NowSourcing.Com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://using-r-project.blogspot.com,The power of R,1,0,1,7,0.001764761021490506,0,0.0,0.0,0.0
+http://realizationsinbiostatistics.blogspot.com,Realizations in Biostatistics,3,16,19,7,0.003274525640382104,0,3.0,1.6333333333333333,1114.1666666666667
+http://www.quantumforest.com,Quantum Forest,1,10,11,9,0.0016258392368713403,0,6.0,3.7625,25.833333333333332
+http://lovestats.wordpress.com,The LoveStats Blog,3,0,3,14,0.0024526114895333673,0,0.0,0.0,0.0
+http://opticalimaging.org/OISblog,OISblog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://neomam.com,Neo Mam Infographic Agency,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.johnmyleswhite.com,John Myles White,2,0,2,22,0.0017321460912615772,0,0.0,0.0,0.0
+http://www.theusrus.de/blog,Statistical Graphics and more,1,6,7,6,0.0016700608518722898,0,6.0,3.580357142857143,0.0
+http://www.straightstatistics.org,http://www.straightstatistics.org,1,0,1,26,0.0017012303427699094,0,0.0,0.0,0.0
+http://www.pandasthumb.org,http://www.pandasthumb.org,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://nextgenseq.blogspot.com,Next-Gen Sequencing,3,0,3,18,0.0017615170138935172,0,0.0,0.0,0.0
+http://haldanessieve.org,Haldane's Sieve,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://understandinguncertainty.org,Understanding Uncertainty,5,7,12,6,0.002365442597336874,0,6.0,3.9152542372881354,124.0
+http://laurent-duval.blogspot.com,La vertu d'un LA The virtue of an A - A fortunate hive,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://suksmono.wordpress.com,http://suksmono.wordpress.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.joelertola.com/grfx/index.html,http://www.joelertola.com/grfx/index.html,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://brainstat.blogspot.com,brain + map + statistics,2,4,6,13,0.001645021111233638,0,8.0,5.567796610169491,87.25
+http://blog.diegovalle.net,Diego Valle's Blog,1,0,1,7,0.00172829542204014,0,0.0,0.0,0.0
+http://infographer.ru/en,Infographer    .,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.westwood.edu/programs/school-of-design/visual-communications,http://www.westwood.edu/programs/school-of-design/visual-communications,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.r-chart.com,R-Chart,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://myreckonings.com/wordpress,Dead Reckonings,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://blog.revolutionanalytics.com,Revolutions,6,0,6,7,0.002724419069189667,0,0.0,0.0,0.0
+http://nsaunders.wordpress.com,What You're Doing Is Rather Desperate,1,0,1,22,0.0017078367082485604,0,0.0,0.0,0.0
+http://www.neurevolution.net,Neurevolution,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://hunch.net,Machine Learning (Theory),6,9,15,15,0.0037135542826803145,0,6.0,3.7542372881355934,1108.3333333333333
+http://www.statschat.org.nz,Stats Chat,4,24,28,26,0.002815014098188658,0,6.0,3.51271186440678,1293.6666666666667
+http://thegenomefactory.blogspot.com.au,The Genome Factory,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://spectralholes.blogspot.com,Spectral Holes,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://fivethirtyeight.blogs.nytimes.com,FiveThirtyEight,3,0,3,26,0.0021616251381390322,0,0.0,0.0,0.0
+http://hackmap.blogspot.com,Bio and Geo Informatics,1,0,1,18,0.0019121227711911977,0,0.0,0.0,0.0
+http://lousodrome.net/blog,http://lousodrome.net/blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://quomodocumque.wordpress.com,Quomodocumque,1,0,1,15,0.0018250277074281286,0,0.0,0.0,0.0
+http://electronsandholes.blogspot.com,Electrons and holes,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://statsblogs.com,http://statsblogs.com,2,0,2,9,0.0024334509614149,0,0.0,0.0,0.0
+http://robinryder.wordpress.com,Robin Ryder's blog,1,0,1,9,0.0018779276752729393,0,0.0,0.0,0.0
+http://permut.wordpress.com,Permutations,2,6,8,9,0.00387360326074265,0,6.0,3.9237288135593222,581.0
+http://news.bbc.co.uk/1/hi/magazine/7883619.stm,http://news.bbc.co.uk/1/hi/magazine/7883619.stm,1,0,1,6,0.001888767360703572,0,0.0,0.0,0.0
+http://blogs.sas.com/sasdummy,The SAS Dummy,1,0,1,14,0.0018498464076700293,0,0.0,0.0,0.0
+http://www.statisticsblog.com,Probability and statistics blog,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://migration.wordpress.com,Migrations,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.iq.harvard.edu/blog/sss,Social Science Statistics Blog,3,0,3,9,0.0023894851789383123,0,0.0,0.0,0.0
+http://fabricebaudoin.wordpress.com,Research and Lecture notes,1,3,4,15,0.0017974868608424662,0,1.0,1.0,42.0
+http://www.jamesandthegiantcorn.com,James and the Giant Corn,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://core-genomics.blogspot.com,CoreGenomics,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://rbaltman.wordpress.com,Building confidence.,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://stataccess.blogspot.com,Access to Statistics,0,15,15,7,0.0016015298538583234,0,1.0,1.0,0.0
+http://blogs.forbes.com/naomirobbins,Effective Graphs,1,0,1,7,0.0017754932701689926,0,0.0,0.0,0.0
+http://www.wallstats.com,http://www.wallstats.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://fseoane.net/blog,http://fseoane.net/blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.drewconway.com/zia,Zero Intelligence Agents,1,0,1,22,0.0017078367082485604,0,0.0,0.0,0.0
+http://www.dataminingblog.com,http://www.dataminingblog.com,2,0,2,14,0.0018772853543271633,0,0.0,0.0,0.0
+http://sayitvisually.com,http://sayitvisually.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.statalgo.com,statalgo,0,0,0,8,0.0016015298538583234,9,0.0,0.0,0.0
+http://www.statsblogs.com,Statistics Blogs @ StatsBlogs.com,15,0,15,9,0.007589016938722009,0,0.0,0.0,0.0
+http://ongenetics.blogspot.com,On Genetics,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://www.chartsmapsdiagrams.com,http://www.chartsmapsdiagrams.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://rsnippets.blogspot.com,R snippets,0,3,3,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://bpchesney.org,bpchesney.org,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://two-n.com,http://two-n.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://christophergandrud.blogspot.com,Christopher Gandrud,0,9,9,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://tm.durusau.net,Another Word For It,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://bogumilkaminski.home.pl/index.php,http://bogumilkaminski.home.pl/index.php,1,0,1,9,0.002055305003434638,0,0.0,0.0,0.0
+http://brainchronicle.blogspot.com,Brain Chronicle,0,5,5,18,0.0016015298538583234,0,1.0,1.0,0.0
+http://simplecomplexity.net,http://simplecomplexity.net,2,0,2,6,0.0018016166664975644,0,0.0,0.0,0.0
+http://www.databison.com,Excel & VBA - Databison,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://r4stats.com,r4stats.com,0,2,2,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://newswithnumbers.com,News With Numbers,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://datajournalists.org,http://datajournalists.org,1,0,1,9,0.0019418612160405592,0,0.0,0.0,0.0
+http://simplystatistics.org,http://simplystatistics.org,8,0,8,9,0.004138115682280495,0,0.0,0.0,0.0
+http://gilkalai.wordpress.com,Combinatorics and more,3,9,12,15,0.002366392781974115,0,6.0,3.7415254237288136,622.3333333333335
+http://www.97thfloor.com/social-media/infographics,http://www.97thfloor.com/social-media/infographics,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.johndcook.com/blog,The Endeavour,14,0,14,9,0.0042292417299820044,0,0.0,0.0,0.0
+http://www.linkedin.com/in/keithrobison,http://www.linkedin.com/in/keithrobison,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.funnelinc.com,http://www.funnelinc.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://scienceinthesands.blogspot.com,Science in the Sands,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://normaldeviate.wordpress.com,http://normaldeviate.wordpress.com,6,7,13,9,0.004466172039668481,0,6.0,2.7966101694915255,5275.0
+http://abbottanalytics.blogspot.com,Data Mining and Predictive Analytics,1,4,5,14,0.001750519786145347,0,1.0,1.0,8.0
+http://statbandit.wordpress.com,Stat Bandit,0,6,6,9,0.0016015298538583234,0,6.0,3.6202531645569622,0.0
+http://www.johngrimwade.com,http://www.johngrimwade.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://mathpages.blogspot.com,Math Pages Blog,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://to-cs.blog.sohu.com,Compressive Sensing,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://visualmethods.blogspot.com,http://visualmethods.blogspot.com,1,8,9,6,0.0016700608518722898,0,7.0,4.214285714285714,4.0
+http://robjhyndman.com,Rob J Hyndman,2,0,2,22,0.0017321460912615772,0,0.0,0.0,0.0
+http://lewko.wordpress.com,Lewko's blog,1,1,2,15,0.0021186470268376345,0,1.0,1.0,0.0
+http://nicolasrapp.com,nicolasrapp.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.flowingdata.com,http://www.flowingdata.com,14,0,14,6,0.00391896317038311,0,0.0,0.0,0.0
+http://harvestimaging.com/blog,Harvest Imaging Blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://gettinggeneticsdone.blogspot.com,Getting Genetics Done,4,0,4,18,0.002168267610706603,0,0.0,0.0,0.0
+http://brainwindows.wordpress.com,Brain Windows,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.cerebralmastication.com,Cerebral Mastication,3,0,3,7,0.0020450312921914122,0,0.0,0.0,0.0
+http://blog.informationgeometry.org,Computational Information Geometry Wonderland,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://blog.malde.org,http://blog.malde.org,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://ftalphaville.ft.com,http://ftalphaville.ft.com,1,0,1,9,0.0017527882370504282,0,0.0,0.0,0.0
+http://www.smartdraw.com,http://www.smartdraw.com,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://infographiclabs.com,Infographic Labs,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://my.biotechlife.net,My Biotech Life,1,0,1,18,0.0016742661226516434,0,0.0,0.0,0.0
+http://planetr.stderr.org,http://planetr.stderr.org,1,0,1,7,0.002336070108203145,0,0.0,0.0,0.0
+http://www.cros-portal.eu/frontpage,http://www.cros-portal.eu/frontpage,1,0,1,7,0.0016922848837735863,0,0.0,0.0,0.0
+http://www.kimberleycrofts.com,http://www.kimberleycrofts.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.massgenomics.org,MassGenomics,2,0,2,18,0.00304646046916026,0,0.0,0.0,0.0
+http://blog.i2pi.com,http://blog.i2pi.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.braintapper.com,http://www.braintapper.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.sciencebasedmedicine.org,Science-Based Medicine,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.andrewgelman.com/blog,http://www.andrewgelman.com/blog,3,0,3,9,0.0027739730756725757,0,0.0,0.0,0.0
+http://dataminingblog.com,Data Mining Research,1,0,1,14,0.0019735226960698846,0,0.0,0.0,0.0
+http://update.snd.org,http://update.snd.org,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://societytosupressthecorrelationcoefficient.wordpress.com,The Society for the Suppression of the Correlation Coefficient,2,2,4,9,0.0034994435225886695,0,7.0,4.920833333333333,0.0
+http://11011110.livejournal.com,http://11011110.livejournal.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.homolog.us/blogs,Homologus,1,19,20,18,0.0016258392368713403,0,3.0,1.6382978723404256,12.333333333333332
+http://blog.echen.me,http://blog.echen.me,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://rbresearch.wordpress.com,rbresearch,0,1,1,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://chandoo.org/wp,Chandoo.org - Learn Excel & Charting Online,1,0,1,6,0.0016700608518722898,0,0.0,0.0,0.0
+http://www.daniel-lemire.com,http://www.daniel-lemire.com,1,0,1,22,0.0017078367082485604,0,0.0,0.0,0.0
+http://physical-thought.blogspot.com,http://physical-thought.blogspot.com,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://www.medbioworld.com/postgenomics_blog,http://www.medbioworld.com/postgenomics_blog,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.r-bloggers.com,R-bloggers,32,0,32,9,0.017011673770041272,0,0.0,0.0,0.0
+http://gianlubaio.blogspot.com,Gianluca Baio's blog,0,8,8,9,0.0016015298538583234,0,6.0,3.305439330543933,0.0
+http://pleiotropy.fieldofscience.com,Pleiotropy,1,0,1,14,0.0018498464076700293,0,0.0,0.0,0.0
+http://observationalepidemiology.blogspot.com,Observational Epidemiology,1,5,6,9,0.0019224391364979884,0,7.0,4.86864406779661,250.16666666666669
+http://people.umass.edu/mduarte/Main/Main.html,http://people.umass.edu/mduarte/Main/Main.html,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.mikesudal.com,mikesudal,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://infonewt.com,http://infonewt.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://worldofrcraft.blogspot.com,World of R-Craft,1,0,1,7,0.001764761021490506,0,0.0,0.0,0.0
+http://www.andrewgelman.com,"Statistical Modeling, Causal Inference, and Social Science",22,21,43,9,0.007929793875194097,0,5.0,2.983050847457627,7067.583333333333
+http://www.computersdontsee.net,Computers don't see,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://lemire.me/blog,Daniel Lemire's blog,1,0,1,15,0.001946883886166366,0,0.0,0.0,0.0
+http://botthoughts.wordpress.com,Bot Thoughts,1,2,3,9,0.002785293199306044,0,2.0,1.3333333333333333,1.0
+http://michaelnielsen.org/blog,Michael Nielsen,2,0,2,15,0.002175757975766628,0,0.0,0.0,0.0
+http://chartsnthings.tumblr.com,chartsnthings,2,0,2,26,0.0020221396254095744,0,0.0,0.0,0.0
+http://zoonek2.free.fr/UNIX/48_R/all.html,http://zoonek2.free.fr/UNIX/48_R/all.html,1,0,1,7,0.00172829542204014,0,0.0,0.0,0.0
+http://heuristically.wordpress.com,Heuristic Andrew,1,1,2,22,0.0016258392368713403,0,1.0,1.0,0.0
+https://wiki.hpcc.msu.edu/display/~johnj@msu.edu,https://wiki.hpcc.msu.edu/display/~johnj@msu.edu,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://www.coolinfographics.com,Cool Infographics,2,81,83,10,0.0021573550016029106,0,2.0,1.10989010989011,386.75
+http://ffctn.com,http://ffctn.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://gottwurfelt.wordpress.com,God plays dice,3,0,3,15,0.0025294381756821808,0,0.0,0.0,0.0
+http://damarisbsarria.blogspot.com,How I Am Becoming An Astronaut,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://substratumseries.com,Substratum Series,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://alittleknowledge.wordpress.com,http://alittleknowledge.wordpress.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://statmethods.wordpress.com,statMethods blog,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://lkozma.net/blog,next big thing syndrome,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://citizen-statistician.org,Citizen-Statistician,1,3,4,9,0.0017012303427699094,0,7.0,4.5,0.0
+http://dailyinfographic.com,Daily Infographic,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.datagenetics.com/blog.html,http://www.datagenetics.com/blog.html,1,0,1,26,0.0017012303427699094,0,0.0,0.0,0.0
+http://dirk.eddelbuettel.com,http://dirk.eddelbuettel.com,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://visualoop.com,http://visualoop.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://viksalgorithms.blogspot.com,"R, Ruby, and Finance",0,1,1,9,0.0016015298538583234,0,1.0,1.0,0.0
+https://wiki.hpcc.msu.edu/display/~johnj@msu.edu/,https://wiki.hpcc.msu.edu/display/~johnj@msu.edu/,0,0,0,11,0.0016015298538583234,10,0.0,0.0,0.0
+http://trinkerrstuff.wordpress.com,TRinker's R Blog,1,2,3,9,0.002785293199306044,0,2.0,1.3333333333333333,1.0
+http://www.hilarymason.com,hilarymason.com,1,0,1,26,0.0017127663164699975,0,0.0,0.0,0.0
+http://blogs.abcnews.com/thenumbers,Politics  Polls,1,0,1,26,0.0017012303427699094,0,0.0,0.0,0.0
+http://machinevision4users.blogspot.com,Machine Vision 4 Users,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.cscs.lsa.umich.edu/~crshalizi/weblog,http://www.cscs.lsa.umich.edu/~crshalizi/weblog,1,0,1,13,0.0019511032648603954,0,0.0,0.0,0.0
+http://www.thejuliagroup.com/blog,AnnMaria's Blog,1,6,7,14,0.0017527882370504282,0,6.0,3.925,235.5
+http://yetaspblog.wordpress.com,Le Petit Chercheur Illustr,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.clcngs.com,http://www.clcngs.com,1,0,1,18,0.0019121227711911977,0,0.0,0.0,0.0
+http://teachingcollegemath.com,Busynessgirl,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://www.win-vector.com/blog,Win-Vector Blog,0,0,0,12,0.0016015298538583234,11,0.0,0.0,0.0
+http://www.bestinfographics.co.uk,Best Infographics,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://baselinescenario.com,The Baseline Scenario,1,0,1,9,0.0017527882370504282,0,0.0,0.0,0.0
+http://polylogblog.wordpress.com,the polylogblog,4,3,7,15,0.002315876509930931,0,7.0,4.720338983050848,31.166666666666675
+http://infosthetics.com,http://infosthetics.com,11,0,11,6,0.003482853820409063,0,0.0,0.0,0.0
+http://honglangwang.wordpress.com,Honglang Wang's Blog,0,56,56,22,0.0016015298538583234,0,4.0,2.4540059347181007,0.0
+http://marchonscience.blogspot.com,Zhilin's Scientific Journey,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://blog.visual.ly,http://blog.visual.ly,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://chrisladroue.com,http://chrisladroue.com,1,7,8,9,0.0016258392368713403,0,6.0,3.9243697478991595,0.5
+http://perceptualedge.com/blog,http://perceptualedge.com/blog,1,0,1,6,0.0017198281104763456,0,0.0,0.0,0.0
+http://www.analysisfactor.com,http://www.analysisfactor.com,1,0,1,14,0.001750519786145347,0,0.0,0.0,0.0
+http://mark.reid.name/iem,http://mark.reid.name/iem,3,0,3,15,0.0023167960288671633,0,0.0,0.0,0.0
+http://www.seewhatyoumean.blogspot.com,Seewhatyoumean,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://micheleguieu.blogspot.com,"inspiration, etc...",1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://guidetodatamining.com,A Programmer's Guide to Data Mining,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://hao1990.blogspot.com,Hao's TechBlog,2,0,2,22,0.001645021111233638,0,0.0,0.0,0.0
+http://pleasemakeanote.blogspot.com,Please Make A Note,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://cooldata.wordpress.com,CoolData blog,1,10,11,14,0.0017527882370504282,0,2.0,1.2857142857142858,13.5
+http://www.2physics.com,2Physics,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://yihui.name/en,http://yihui.name/en,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://qchu.wordpress.com,Annoying Precision,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://ggorjan.blogspot.com,Gregor Gorjanc (gg),1,0,1,9,0.0017397287645656314,0,0.0,0.0,0.0
+http://fishyoperations.com,FishyOperations,0,2,2,9,0.0016015298538583234,0,1.0,1.0,0.0
+http://scienceblogs.com/digitalbio,Discovering Biology in a Digital World,2,0,2,18,0.0016887807451001972,0,0.0,0.0,0.0
+http://socialmediagraphics.posterous.com,http://socialmediagraphics.posterous.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://serialconsign.com,http://serialconsign.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://blog.fejes.ca,blog.fejes.ca,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.globalpolicyjournal.com,http://www.globalpolicyjournal.com,1,0,1,9,0.0017527882370504282,0,0.0,0.0,0.0
+http://rjlipton.wordpress.com,Gdel's Lost Letter and P=NP,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.kinecthacks.net,KinectHacks.net,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.technologyreview.com/stream,http://www.technologyreview.com/stream,1,0,1,18,0.0018737949436041122,0,0.0,0.0,0.0
+http://bpr3.org/?page_id=56,http://bpr3.org/?page_id=56,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+/,/,3,0,3,7,0.0023636178371054715,0,0.0,0.0,0.0
+http://www.fluxvfx.com/shop/infographics,http://www.fluxvfx.com/shop/infographics,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://phylogenomics.blogspot.com,The Tree of Life,3,0,3,18,0.002123057950691826,0,0.0,0.0,0.0
+http://iitstatwizards.weebly.com,http://iitstatwizards.weebly.com,1,0,1,17,0.0018737949436041122,8,0.0,0.0,0.0
+http://minethatdata.blogspot.com,http://minethatdata.blogspot.com,1,0,1,14,0.0019735226960698846,0,0.0,0.0,0.0
+http://danallenby.wordpress.com,Ideas for Annual Giving,1,0,1,14,0.001750519786145347,0,0.0,0.0,0.0
+http://www.willowgarage.com/blog,http://www.willowgarage.com/blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://yall1.blogs.rice.edu,http://yall1.blogs.rice.edu,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.theanalysisfactor.com,The Analysis Factor,1,0,1,14,0.0017527882370504282,0,0.0,0.0,0.0
+http://www.ngsleaders.org,http://www.ngsleaders.org,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://ngs-brescia.blogspot.it,http://ngs-brescia.blogspot.it,1,10,11,18,0.0016258392368713403,0,2.0,1.7560975609756098,6.833333333333333
+http://www.pitchinteractive.com,http://www.pitchinteractive.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.rensenieuwenhuis.nl,Curving Normality,1,0,1,7,0.001764761021490506,0,0.0,0.0,0.0
+http://blog.oddhead.com,Oddhead Blog,2,0,2,15,0.0022777614885860736,0,0.0,0.0,0.0
+http://www.visualnews.com/category/infographics,Visual News,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.badscience.net,Bad Science,1,0,1,26,0.0017012303427699094,0,0.0,0.0,0.0
+http://igraphicsexplained.blogspot.com,iGraphics explained,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.excelcharts.com/blog,The Excel Charts Blog,2,0,2,6,0.001836523407161793,0,0.0,0.0,0.0
+http://engineering-returns.com,Engineering Returns,1,0,1,20,0.0018284174286464807,0,0.0,0.0,0.0
+http://blogs.forbes.com/matthewherper,The Medicine Show,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://machine-learning.blogspot.com,"Social Media, Data Mining & Machine Learning",1,0,1,15,0.0019522601221968231,0,0.0,0.0,0.0
+http://blog.plover.com,The Universe of Discourse,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://conflate.net/inductio,http://conflate.net/inductio,1,0,1,16,0.0033750745085410557,0,0.0,0.0,0.0
+http://www.informationisbeautiful.net,Information Is Beautiful,7,0,7,6,0.002866650443983458,0,0.0,0.0,0.0
+http://understandinguncertainty.org/blog,http://understandinguncertainty.org/blog,1,0,1,26,0.0017012303427699094,0,0.0,0.0,0.0
+http://vizwiz.blogspot.com,VizWiz,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://scienceblogs.com/evolgen,evolgen,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://nlpers.blogspot.com,natural language processing blog,2,0,2,15,0.001966065760528664,0,0.0,0.0,0.0
+http://www.styleandflow.com,Information Graphics Gallery | Info Graphics Inspiration | Style & Flow,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://linbaba.wordpress.com,Journey into Randomness,3,7,10,15,0.0018409781182177807,0,7.0,4.0423728813559325,270.25000000000006
+http://vizthink.com,http://vizthink.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://wildaboutmath.com,Wild About Math!,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://alstatr.blogspot.com,ALSTAT R Blog,0,5,5,17,0.0016015298538583234,8,1.0,1.0,0.0
+http://geomblog.blogspot.com,The Geomblog,6,10,16,15,0.00406289246601455,0,7.0,4.648305084745763,637.0000000000001
+http://kevin-gattaca.blogspot.com,Kevin's GATTACA World,3,5,8,18,0.0018269796558075051,0,2.0,1.8484848484848484,11.833333333333334
+http://visualthinkmap.blogspot.com,http://visualthinkmap.blogspot.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://blog.vinux.in,Fiddling with data and code,0,0,0,19,0.0016015298538583234,12,0.0,0.0,0.0
+http://thedailyviz.com,The Daily Viz,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://sas-and-r.blogspot.com,SAS and R,2,0,2,7,0.0019022588383508091,0,0.0,0.0,0.0
+http://junkcharts.typepad.com/numbersruleyourworld,Numbers Rule Your World,3,13,16,26,0.0021333760880212485,0,6.0,3.4533898305084745,2324.5
+http://www.mathfinance.cn,http://www.mathfinance.cn,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://tiffanyfarrant.co.uk,Tiffany Farrant - Information Design,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.thepersonalgenome.com,The Personal Genome,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.genomeweb.com,http://www.genomeweb.com,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://stupidmatlabhacks.tumblr.com,http://stupidmatlabhacks.tumblr.com,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://scharrheds.blogspot.com,Health Economics and Decision Science Blog @ ScHARR,1,0,1,9,0.0017716955349494413,0,0.0,0.0,0.0
+http://www.futurepicture.org,FUTUREPICTURE,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+https://normaldeviate.wordpress.com,Normal Deviate,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://www.vizthink.com/blog,VizThink,1,0,1,6,0.0017198281104763456,0,0.0,0.0,0.0
+http://systematicinvestor.wordpress.com,Systematic Investor,0,6,6,20,0.0016015298538583234,0,1.0,1.0,0.0
+http://timharford.com/articles/undercovereconomist,Tim Harford,1,0,1,9,0.0017550841990886655,0,0.0,0.0,0.0
+http://www.mathpuzzle.com,http://www.mathpuzzle.com,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://image-sensors-world.blogspot.com,Image Sensors World,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://blog.thingiverse.com,Thingiverse Blog,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://seqanswers.com,http://seqanswers.com,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://mathnotations.blogspot.com,MathNotations,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://adventuresinr.wordpress.com,Adventures in R,0,0,0,21,0.0016015298538583234,13,0.0,0.0,0.0
+http://www.spsstools.net,http://www.spsstools.net,1,0,1,14,0.0017527882370504282,0,0.0,0.0,0.0
+http://almostsure.wordpress.com,Almost Sure,1,3,4,15,0.0018250817426819295,0,1.0,1.0,44.25
+http://weitaiyun.blogspot.com,Taiyun Wei,1,0,1,7,0.00172829542204014,0,0.0,0.0,0.0
+http://jeromyanglim.blogspot.com,http://jeromyanglim.blogspot.com,1,13,14,22,0.0016258392368713403,0,6.0,3.2827868852459017,6.833333333333333
+http://www.zcliu.org/blog,Zhicheng Liu,1,0,1,6,0.0017679924091478266,0,0.0,0.0,0.0
+http://infographicsnews.blogspot.com,Infographics news,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://www.datamining-blog.de,Data Mining - Blog.de,1,0,1,23,0.002962855302587267,5,0.0,0.0,0.0
+http://www.eyeondna.com,Eye on DNA,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://bit-player.org,bit-player,1,0,1,15,0.0018250817426819295,0,0.0,0.0,0.0
+http://blog.many-eyes.com,http://blog.many-eyes.com,1,0,1,6,0.0017198281104763456,0,0.0,0.0,0.0
+http://www.genomicslawreport.com,Genomics Law Report,1,0,1,18,0.0016644713620871804,0,0.0,0.0,0.0
+http://www.guardian.co.uk/news/datablog,http://www.guardian.co.uk/news/datablog,2,0,2,7,0.0017608158817875527,0,0.0,0.0,0.0
+http://www.carlislerainey.com,Carlisle Rainey,0,0,0,24,0.0016015298538583234,14,0.0,0.0,0.0
+http://learnr.wordpress.com,Learning R,4,0,4,7,0.002134021003996958,0,0.0,0.0,0.0
+http://pairach.com,Pairach Piboonrungroj,1,0,1,22,0.0016258392368713403,0,0.0,0.0,0.0
+http://www.markheckmann.de,Mark Heckmann - Blog,1,0,1,7,0.001764761021490506,0,0.0,0.0,0.0
+http://numberblog.wordpress.com,Big Numbers,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://onbiostatistics.blogspot.com,On Biostatistics and Clinical Trials,1,1,2,7,0.0017754932701689926,0,4.0,2.6,0.0
+http://gazeinteraction.blogspot.com,Martin Tall On Gaze Interaction,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://rdataviz.wordpress.com,Data visualization (in R),1,0,1,7,0.00172829542204014,0,0.0,0.0,0.0
+http://www.mikewirthart.com,http://www.mikewirthart.com,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://davidketcheson.info,http://davidketcheson.info,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://rgm2.lab.nig.ac.jp/RGM2/images.php?show=all&pageID=1405,http://rgm2.lab.nig.ac.jp/RGM2/images.php?show=all&pageID=1405,1,0,1,17,0.0018737949436041122,8,0.0,0.0,0.0
+http://media.aau.dk/null_space_pursuits,http://media.aau.dk/null_space_pursuits,1,0,1,13,0.0016207117282206211,0,0.0,0.0,0.0
+http://ryouready.wordpress.com,R you ready?,1,9,10,7,0.00172829542204014,0,3.0,1.5789473684210527,181.0
+http://shuisman.com,Sander Huisman,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://www.r-tutor.com,R Tutorial,0,0,0,25,0.0016015298538583234,15,0.0,0.0,0.0
+http://sinama.org,| Site Wide Activity,1,0,1,17,0.0018737949436041122,8,0.0,0.0,0.0
+http://letsplaymath.wordpress.com,Let's Play Math!,1,0,1,16,0.0016669669703948272,0,0.0,0.0,0.0
+http://infographicpics.com,Infographic Pics,1,0,1,10,0.0016241692815705314,0,0.0,0.0,0.0
+http://thestatsblog.wordpress.com,,3,1,4,26,0.001951952318111041,0,1.0,1.0,0.5

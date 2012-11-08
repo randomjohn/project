@@ -15,8 +15,8 @@
    x pickle the graph for further exploration in networkx
    * analyze it
  * Compare the two
-   * find a way to overlap the two
-   * maybe add topic clusters as attributes? that way Gephi can color them
-   * try one-way ANOVA of tf-idf similarity on community number
+   * maybe add topic clusters as attributes? that way Gephi can color them (would be nice)
    * try k-means on similarity, and compute how often the clustering and community detection agree that pairs are in same group
-   
+     use Spearman's r, or something like that
+ * Efficiency
+   * Normalize TF-IDF vectors before analyzing them.

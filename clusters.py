@@ -177,8 +177,9 @@ def kcluster(rows,distance=pearson,k=4):
   for i in range(len(rows[0]))]
 
   # Create k randomly placed centroids
-  clusters=[[random.random()*(ranges[i][1]-ranges[i][0])+ranges[i][0] 
-  for i in range(len(rows[0]))] for j in range(k)]
+  #clusters=[[random.random()*(ranges[i][1]-ranges[i][0])+ranges[i][0] 
+  #for i in range(len(rows[0]))] for j in range(k)]
+  clusters = [rows[int(random.random()*len(rows))] for i in range(k)]
   
   lastmatches=None
   for t in range(100):

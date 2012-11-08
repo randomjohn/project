@@ -20,6 +20,7 @@ out/ - directory holding json files from get_feed and gml file from build_graph.
 build_graph.py - parses all json files in out/ and creates a digraph based on outlinks in the blogs (as saved by get_feed). Creates a dot file in the out/ directory
    NOTE: there is some error in build_graph.py with the addition of titles as labels.
 similarity.py - reads the term document matrix from get_counts.py and creates a similarity matrix, writes it out to out\similarity.txt
+clusters.py - among other things, performs k-means clustering on the blogs
 README - this document
 TODO - things that are remaining to do in the project
 

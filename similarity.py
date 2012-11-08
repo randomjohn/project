@@ -43,7 +43,13 @@ def compute_tf_idf_matrix(tdf,idf):
     for i in range(len(tdf)):
         tdf[i]=tdf[i]*idf
     return matrix(tdf)          
-    
+
+def normalize_tf_idf(tfidf):
+    """Convert a matrix so that its rows have norm 1, so we can efficiently compute similarity, may be unnecessary?"""
+    for row in range(shape(tfidf)[0]):
+        tfidf[row] = tfidf[row]/linalg.norm(tfidf[row])
+    return tfidf
+        
 def compute_similarity(v1,v2):
     """compute cosine similarity between two vectors, assumes they have been normalized by tf-idf"""
     v1=matrix(v1)
@@ -52,7 +58,17 @@ def compute_similarity(v1,v2):
         res= inner(v1,v2)/linalg.norm(v1)/linalg.norm(v2)
     except ZeroDivisionError:
         res=1.0
-    return res
+    return float(res)
+
+def compute_similarity_normalized(v1,v2):
+    """compute cosine similarity between two vectors, assumes they have been normalized by tf-idf and normalized so that norm=1"""
+    v1=matrix(v1)
+    v2=matrix(v2)
+    try:
+        res= inner(v1,v2)
+    except ZeroDivisionError:
+        res=1.0
+    return float(res)
     
 def compute_similarity_matrix(rownames,tfidf):
     """compute a similarity matrix of documents (blogs) given names and tfidf"""
@@ -95,12 +111,17 @@ def main():
     idf=compute_idf(counts)
     print "Computing TF-IDF matrix"
     tfidf=compute_tf_idf_matrix(counts,idf)
-    n_clus=12
+    n_clus=15
     print "Computing " + str(n_clus) + " clusters"
-    blog_clus=clusters.kcluster(tfidf.tolist(),distance=compute_similarity,k=n_clus)
-    print "Computing similarity matrix"
-    sim=compute_similarity_matrix(rownames,tfidf)
-    print "Writing similarity matrix"
-    write_similarity(sim,rownames,filename="similarity.txt")
+    blog_clus=clusters.kcluster(tfidf,distance=compute_similarity_normalized,k=n_clus)
+    f = open("out/blog_clus.txt",'w')
+    for i in range(len(blog_clus)):
+        for j in range(len(blog_clus[i])):
+            f.write(str(i) + "\t" + rownames[blog_clus[i][j]] + "\n")
+    f.close()        
+    #print "Computing similarity matrix"
+    #sim=compute_similarity_matrix(rownames,tfidf)
+    #print "Writing similarity matrix"
+    #write_similarity(sim,rownames,filename="similarity.txt")
     
 if __name__=="__main__": main()    
